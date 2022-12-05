@@ -38,3 +38,19 @@ A linguist; currently studing web-developing.
     return `${fighter1.name}`;
 }
 `
+
+## Work experience:
+
+No developing work experience yet.
+
+## Education and courses:
+
+- The Complete JavaScript Course 2023: From Zero to Expert
+  https://www.udemy.com/course/the-complete-javascript-course/?utm_campaign=website1010&utm_medium=website1010&utm_source=mycoupon
+
+## Language:
+
+1. Russian - native
+2. English - advanced
+3. German - intermediate
+4. Spanish - elementary
