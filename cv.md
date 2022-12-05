@@ -12,7 +12,8 @@ A linguist; currently studing web-developing.
 
 ## Code example:
 
-`function declareWinner(fighter1, fighter2, firstAttacker) {
+```
+function declareWinner(fighter1, fighter2, firstAttacker) {
   while (fighter1.health > 0 && fighter2.health > 0) {
     if (firstAttacker === fighter1.name)
       console.log(
@@ -37,7 +38,7 @@ A linguist; currently studing web-developing.
   if (fighter2.health <= 0)
     return `${fighter1.name}`;
 }
-`
+```
 
 ## Work experience:
 
