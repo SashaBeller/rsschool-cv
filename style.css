@@ -31,6 +31,16 @@ img {
   margin: 20px;
 }
 
+.name {
+  text-align: center;
+}
+
+.header {
+  background-color: #3ea894;
+  padding: 20px;
+  font-size: 14px;
+}
+
 .header a {
   color: #072a24;
   text-decoration: none;
@@ -39,10 +49,6 @@ img {
 
 .header a:hover {
   color: #ffffff;
-}
-
-.header {
-  background-color: #3ea894;
 }
 
 .center {
@@ -58,7 +64,7 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  min-height: 50px;
+  min-height: 20px;
 }
 
 .main-container {
@@ -78,7 +84,7 @@ img {
   width: calc(50% - 20px);
   padding: 10px;
   padding-bottom: 35px;
-  border-bottom: 1px solid #672f2f;
+  border-top: 1px solid #084540;
 }
 
 .section-title {
@@ -90,13 +96,15 @@ img {
 }
 
 .nav-list {
-  font-size: 30px;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  flex-direction: row;
   list-style: none;
   padding: 0 20px;
-  line-height: 50px;
+  line-height: 30px;
+  margin: auto;
 }
 
 .link {
@@ -116,4 +124,24 @@ html {
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
+}
+
+.rss {
+  width: 70px;
+  height: 45px;
+  float: right;
+}
+
+.footer {
+  background-color: #3ea894;
+}
+
+.github {
+  text-align: center;
+  padding: 30px;
+}
+
+.section-education,
+.section-languages {
+  border-bottom: 1px solid #084540;
 }
