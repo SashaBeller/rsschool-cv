@@ -6,21 +6,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/favicon.ico" />
-    <style>
-      @font-face {
-        font-family: Lora;
-        src: url("assets/fonts/Lora.ttf");
-      }
-      body {
-        font-family: "Lora";
-      }
-      * {
-        box-sizing: border-box;
-      }
-    </style>
+    <link rel="icon" href="assets/cv___favicon.ico" />
+    <style></style>
   </head>
   <body>
-    <img src="cvPicture.jpg" alt="my photo" />
+    <!-- <img src="cvPicture.jpg" alt="my photo" /> -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <p id="contacts">
+        <h4>Contacts</h4>
+          Phone: +34 617466412
+          <br />
+          E-mail: polina.skripeleva@icloud.com
+        </p>
+        <p id="summary">
+        <h4>Summary</h4>
+          Hello, world! My name is Polina, I am at the beginning of my
+          web-developing journey. I have a master degree in linguistics, however
+          not so long ago I decided to start a new path in my career. Currently,
+          I am studing 2 interesting courses and gaining new expirience.
+        </p>
+        <p id="skills">
+            <h4>Skills</h4>
+            #css #html #js
+        </p>
+        <h4>Code Example</h4> 
+        <pre>  
+            <code id="code">
+                function howMuchILoveYou(nbPetals) {
+                    const petals = [
+                      'I love you',
+                      'a little',
+                      'a lot',
+                      'passionately',
+                      'madly',
+                      'not at all',
+                    ];
+                    let index = nbPetals % petals.length;
+                    if (nbPetals > 0 && nbPetals <= petals.length) {
+                      return petals[nbPetals - 1];
+                    }
+                    if (index === 0) {
+                      return petals[5];
+                    } else {
+                      return petals[index - 1];
+                    }
+                  }
+            </code>
+        </pre>
+        <p id="courses">
+            <h4>Courses</h4>
+            <ol>
+                <li> Udemy - 
+                    <a href="https://www.udemy.com/course/the-complete-javascript-course/">The Complete JavaScript Course 2023: From Zero to Expert!</a>
+                </li>
+                <li> Code-basics - 
+                    <ul> 
+                        <li>
+                            <a href="https://code-basics.com/ru/languages/html">Бесплатный курс по HTML: обучение html верстке для начинающих</a>
+                        </li>
+                        <li>
+                            <a href="https://code-basics.com/ru/languages/css">Бесплатный курс CSS: онлайн обучение с нуля</a>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </p>
+        <p id="projects">
+            <h4>Projects</h4>
+            <ul>
+                <li>
+                    <a href="
+                    https://bankist-dom.netlify.app/
+                    ">A marketing page for a bank app.</a>
+                </li>
+                <li>
+                    <a href="
+                    https://bankist.netlify.app/
+                    ">Online bank accaunt page.</a>
+                </li>
+            </ul>
+        </p>
+        <p id="education">
+            <h4>Education</h4>
+                Moscow State Linguistic University
+        </p>
+        <p id="languages">
+            <h4>Languages</h4>
+            <ol>
+                <li>Russian - native</li>
+                <li>English - advanced</li>
+                <li>German - intermediate</li>
+                <li>Spanish - elementary</li>
+            </ol>
+        </p>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <h1>Footer</h1>
+      </div>
+    </footer>
   </body>
 </html>
