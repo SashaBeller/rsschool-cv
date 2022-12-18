@@ -10,7 +10,6 @@
     <style></style>
   </head>
   <body>
-    <!-- <img src="cvPicture.jpg" alt="my photo" /> -->
     <header class="header">
       <div class="container">
         <nav class="nav">
@@ -43,27 +42,34 @@
         </nav>
       </div>
     </header>
+    <section class="profile-section" id="profile">
+        <img src="cvPicture.jpg" alt="my photo" class="center" />
+        <h1 class="name">Polina Skripeleva</h1>
+      </section>
     <main class="main">
-      <div class="container">
-        <p id="contacts">
-        <h4>Contacts</h4>
-          Phone: +34 617466412
-          <br />
-          E-mail: polina.skripeleva@icloud.com
-        </p>
-        <p id="summary">
-        <h4>Summary</h4>
-          Hello, world! My name is Polina, I am at the beginning of my
-          web-developing journey. I have a master degree in linguistics, however
-          not so long ago I decided to start a new path in my career. Currently,
-          I am studing 2 interesting courses and gaining new expirience.
-        </p>
-        <p id="skills">
-            <h4>Skills</h4>
-            #css #html #js
-        </p>
-        <h4>Code Example</h4> 
-        <pre>  
+      <div class="container, main-container">
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2 class="section-title">
+          <p>Phone: +34 617466412</p>
+          <p>E-mail: polina.skripeleva@icloud.com</p>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2 class="section-title">
+          <p>Hello, world!</p>
+          <p>
+            My name is Polina, I am at the beginning of my web-developing
+            journey. I have a master degree in linguistics, however not so long
+            ago I decided to start a new path in my career. Currently, I am
+            studing two interesting courses and gaining new expirience.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2 class="section-title">
+          <p>#css #html #js</p>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code Example</h2 class="section-title">
+          <pre>  
             <code id="code">
                 function howMuchILoveYou(nbPetals) {
                     const petals = [
@@ -86,57 +92,80 @@
                   }
             </code>
         </pre>
-        <p id="courses">
-            <h4>Courses</h4>
-            <ol>
-                <li> Udemy - 
-                    <a href="https://www.udemy.com/course/the-complete-javascript-course/">The Complete JavaScript Course 2023: From Zero to Expert!</a>
-                </li>
-                <li> Code-basics - 
-                    <ul> 
-                        <li>
-                            <a href="https://code-basics.com/ru/languages/html">Бесплатный курс по HTML: обучение html верстке для начинающих</a>
-                        </li>
-                        <li>
-                            <a href="https://code-basics.com/ru/languages/css">Бесплатный курс CSS: онлайн обучение с нуля</a>
-                        </li>
-                    </ul>
-                </li>
-            </ol>
-        </p>
-        <p id="projects">
-            <h4>Projects</h4>
-            <ul>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2 class="section-title">
+          <ol>
+            <li>
+              Udemy -
+              <a
+                href="https://www.udemy.com/course/the-complete-javascript-course/"
+                >The Complete JavaScript Course 2023: From Zero to Expert!</a
+              >
+            </li>
+            <li>
+              Code-basics -
+              <ul>
                 <li>
-                    <a href="
+                  <a href="https://code-basics.com/ru/languages/html"
+                    >Бесплатный курс по HTML: обучение html верстке для
+                    начинающих</a
+                  >
+                </li>
+                <li>
+                  <a href="https://code-basics.com/ru/languages/css"
+                    >Бесплатный курс CSS: онлайн обучение с нуля</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2 class="section-title">
+          <ul>
+            <li>
+              <a
+                href="
                     https://bankist-dom.netlify.app/
-                    ">A marketing page for a bank app.</a>
-                </li>
-                <li>
-                    <a href="
+                    "
+                >A marketing page for a bank app.</a
+              >
+            </li>
+            <li>
+              <a
+                href="
                     https://bankist.netlify.app/
-                    ">Online bank accaunt page.</a>
-                </li>
-            </ul>
-        </p>
-        <p id="education">
-            <h4>Education</h4>
-                Moscow State Linguistic University
-        </p>
-        <p id="languages">
-            <h4>Languages</h4>
-            <ol>
-                <li>Russian - native</li>
-                <li>English - advanced</li>
-                <li>German - intermediate</li>
-                <li>Spanish - elementary</li>
-            </ol>
-        </p>
+                    "
+                >Online bank accaunt page.</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2 class="section-title">
+          Moscow State Linguistic University
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2 class="section-title">
+          <ol>
+            <li>Russian - native</li>
+            <li>English - advanced</li>
+            <li>German - intermediate</li>
+            <li>Spanish - elementary</li>
+          </ol>
+        </section>
       </div>
     </main>
+
     <footer class="footer">
       <div class="container">
-        <h1>Footer</h1>
+        <div>
+            © 2022 <a href="https://github.com/SashaBeller">Sasha Beller</a>
+        </div>
+        <div>
+            <img src
+        </div>
       </div>
     </footer>
   </body>
