@@ -33,6 +33,12 @@ img {
 
 .name {
   text-align: center;
+  margin: 10px;
+}
+
+.possition {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .header {
