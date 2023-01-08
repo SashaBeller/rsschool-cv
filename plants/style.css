@@ -252,6 +252,13 @@ h2 {
   align-items: center;
 }
 
+.btn_service:hover {
+  background-color: #e06733;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 .container_photo {
   width: 1220px;
   margin: 0 auto;
@@ -261,15 +268,129 @@ h2 {
   background: #edf2ec;
   width: 330px;
   height: 450px;
-  margin: 90px 116px 55px 0;
-  padding: 10px;
+  margin: 90px 60px 55px 0px;
   text-align: center;
-  display: flex;
+  display: inline-block;
   align-items: center;
-  /* vertical-align: top; */
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
 }
 
-.photo img {
+.pic_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+}
+
+h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #e06733;
+}
+
+#prices {
+  width: 1220px;
+  height: 560px;
+  margin: 0 auto;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.prices_container {
+  margin-left: 0px;
+  width: 332px;
+  height: 391px;
+}
+
+.contact_head2 {
+  color: black;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.price_btn {
+  background-color: #edf2ec;
+  color: black;
+  border: 0px solid #edf2ec;
+  border-radius: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  width: 250px;
+  height: 50px;
+  margin-top: 32px;
+}
+
+.dropdown {
+  width: 332px;
+  height: 282px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #e3e1d5;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 20px;
+  padding: 34px 41px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  color: #edf2ec;
+  min-width: 250px;
+  height: 50px;
+  text-align: center;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+.contact_us {
+  width: 452px;
+  height: 1191px;
+}
+
+.img_leaves {
+  width: 152px;
+  height: 175px;
+  display: flex;
+  text-align: end;
+}
+
+.btn_contact {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  margin-right: 38px;
+  color: #e06733;
+  width: 161px;
+  height: 50px;
+  font-family: "Inika";
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 26px;
+  align-items: center;
+}
+
+.btn_contact:hover {
+  background-color: #e06733;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
 }
