@@ -202,3 +202,74 @@ h2 {
   height: 479px;
   margin-left: 153px;
 }
+
+#service {
+  background: #edf2ec;
+  width: 1440px;
+  height: 1300px;
+}
+
+.services_container {
+  width: 1007px;
+  height: 94px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+.services_title {
+  display: flex;
+  align-self: flex-start;
+  width: 306px;
+  height: 94px;
+  margin-left: -109px;
+}
+
+.services_btns {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  width: 559px;
+  height: 50px;
+  margin-left: 142px;
+  margin-right: 33px;
+  margin-top: 81px;
+}
+
+.btn_service {
+  box-sizing: border-box;
+  background-color: #edf2ec;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  margin-right: 38px;
+  color: #e06733;
+  width: 161px;
+  height: 50px;
+  font-family: "Inika";
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 26px;
+  align-items: center;
+}
+
+.container_photo {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.photo {
+  background: #edf2ec;
+  width: 330px;
+  height: 450px;
+  margin: 90px 116px 55px 0;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /* vertical-align: top; */
+}
+
+.photo img {
+  border: 1px solid #e3e1d5;
+  border-radius: 0px 0px 20px 20px;
+}
