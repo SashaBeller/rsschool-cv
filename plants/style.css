@@ -12,7 +12,7 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .section {
     width: 100%;
   }
@@ -453,4 +453,39 @@ h3 {
   line-height: 40px;
   letter-spacing: 0.05em;
   color: #717171;
+}
+
+.footer {
+  background-color: #ffffff;
+}
+
+.footer-container {
+  display: flex;
+  width: 1440px;
+  max-height: 130px;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  padding: 40px 109px;
+}
+
+.github {
+  display: flex;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.school {
+  display: flex;
+  align-items: center;
+}
+
+.social_media {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
 }
