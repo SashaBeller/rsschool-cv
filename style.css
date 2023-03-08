@@ -89,7 +89,6 @@ img {
 .section {
   width: 50%; /*  calc(50% - 20px) */
   padding: 20px;
-  /* padding-bottom: 35px; */
   border-top: 1px solid #084540;
 }
 
