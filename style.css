@@ -1,6 +1,6 @@
 @font-face {
   font-family: Lora;
-  src: url("assets/fonts/Lora.ttf");
+  src: url("assets/fonts/Lora-Regular.ttf");
 }
 
 @media (max-width: 768px) {
@@ -25,8 +25,8 @@ body {
 }
 
 img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   margin: 20px;
 }
@@ -87,9 +87,9 @@ img {
 }
 
 .section {
-  width: calc(50% - 20px);
-  padding: 10px;
-  padding-bottom: 35px;
+  width: 50%; /*  calc(50% - 20px) */
+  padding: 20px;
+  /* padding-bottom: 35px; */
   border-top: 1px solid #084540;
 }
 
@@ -115,7 +115,7 @@ img {
 
 .link {
   text-decoration: none;
-  color: #829985;
+  color: rgb(11, 166, 180);
   transition: color 0.5s;
 }
 
@@ -145,9 +145,4 @@ html {
 .github {
   text-align: center;
   padding: 30px;
-}
-
-.section-education,
-.section-languages {
-  border-bottom: 1px solid #084540;
 }
