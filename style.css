@@ -17,6 +17,7 @@ body {
   color: #042d2d;
   min-width: 320px;
   min-height: 100vh;
+  background-color:#fdf0e1;
   margin: 0;
   padding: 0;
   display: flex;
@@ -42,8 +43,8 @@ img {
 }
 
 .header {
-  background-color: #3ea894;
-  padding: 20px;
+  background-color: #679186;
+  padding: 20px 0 20px 0;
   font-size: 14px;
 }
 
@@ -68,7 +69,7 @@ img {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1720px;
   margin: 0 auto;
   min-height: 20px;
 }
@@ -80,6 +81,7 @@ img {
 
 .main {
   margin-bottom: auto;
+  max-width: 1720px;
 }
 
 .profile-section {
@@ -97,7 +99,7 @@ img {
   font-weight: bold;
   text-transform: capitalize;
   letter-spacing: 10px;
-  color: #0c7e71;
+  color: #4F7D73;
 }
 
 .nav-list {
@@ -107,19 +109,18 @@ img {
   justify-content: flex-end;
   flex-direction: row;
   list-style: none;
-  padding: 0 20px;
   line-height: 30px;
   margin: auto;
 }
 
 .link {
   text-decoration: none;
-  color: rgb(11, 166, 180);
+  color: rgb(0, 0, 0);
   transition: color 0.5s;
 }
 
 .link:hover {
-  color: #68c3c0;
+  color: #A5C0B9;
 }
 
 html {
@@ -138,10 +139,16 @@ html {
 }
 
 .footer {
-  background-color: #3ea894;
+  background-color: #679186;
+  height: auto;
+  margin-top: 20px;
 }
 
-.github {
-  text-align: center;
-  padding: 30px;
+.footer-container {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1720px;
 }
